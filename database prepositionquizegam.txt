@@ -1,0 +1,5 @@
+create database prepositionquizegame;
+create table gamer (id int auto_increment primary key, name varchar(50), mobilenumber varchar(15), score int);
+insert into gamer (name,mobilenumber,score) values ('Rana','01564327838',9);
+update gamer set score=8 where name='Rana';
+delete from gamer where id=2;
